@@ -1,0 +1,50 @@
+.slot {
+    max-width: 50px;
+    font-size: 12px;
+    font-weight: normal;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0.1vw 0.1vw;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.reservedContainer {
+    background-color: #E63946; 
+    /* background-color: red; */
+    color: #F1FAEE;
+    border: 1px solid #E63946;
+}
+
+.freeContainer {
+    background-color: #A8DADC;
+    border: 1px solid #ae2876;
+}
+
+.freeContainer:hover {
+    background-color: #1D3557;
+    color: #F1FAEE;
+}
+
+.clickedContainer {
+    background-color: #99d98c;
+    border: 1px solid #99d98c;
+    color: #F1FAEE;
+}
+
+@media(max-width: 640px) {
+    .slot {
+        padding: 5px;
+    }
+}
+
+/*
+@media (max-width: 640px) {
+    .slot {
+        padding: 5px;
+    }
+}
+*/
+
